@@ -2,7 +2,6 @@
 ##  本文档创建于github
 ### 系统架构：flask + ...
 
-
 - 20191012 添加requirements.txt,git push 时保存用户名和密码
 'code=bash
 git clone https://.git  //码云里有克隆链接，避免出现错误，使用https方式

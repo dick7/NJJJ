@@ -1,5 +1,4 @@
-# Markdown基本语法
->https://www.jianshu.com/p/191d1e21f7ed
+# [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
 
 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 相比WYSIWYG编辑器
@@ -200,3 +199,28 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
+
+## 十一、公式
+
+$$\sum_{i=1}^n a_i=0$$
+
+$a + b = c$
+$$
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi \xi x} \,d\xi
+$$
+
+## 十二、符号常用 Emoji & Font-Awesome
+
+|   |a 	|b 	|c 	|d 	|e 	|f
+|:--:|:---:|:---|:--:|:---:|:---:|:---:|
+|1 	|:punch:|:notebook:|:e-mail:|:smile:|:movie_camera:|:camera:|
+|2 	|:fa-car:|:telephone_receiver:|:phone:|:heart:|:alarm_clock:|:loop:|
+|3 	|:+1:|:books:|:email:|:-1:|:bulb:|:hammer:|
+|4 	|:rocket:|:book:|:envelope:|:sunny:|:mag_right:|:chart_with_upwards_trend:|
+|5 	|:cloud:|:bar_chart:|:wind_chime:|:hibiscus:|:paperclip:|:ghost:|
+|6 	|:bug:|:date:|:balloon:|:beers:|:guitar:|:headphones:
+|7 	|:rice:|:guitar:|:mortar_board:|:house:|:mount_fuji:|:office:|
+|8 	|:rocket:|:school:|:cupid:|:notes:|:shit:|:feet:|
+|9 	|:speech_balloon:|
+
+

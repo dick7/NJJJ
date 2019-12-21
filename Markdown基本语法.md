@@ -188,8 +188,8 @@ function fun(){
 fun();
 ```
 
-## 十、流程图
-
+## 十、图
+- ### 流程图
 ```flow
 st=>start: 开始
 op=>operation: My Operation
@@ -199,6 +199,46 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
+```
+- ### 序列图、puml序列图
+
+```sequence
+title:communication
+participant main
+participant FuncA as A
+participant FuncB as B
+```
+```sequence
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+
+- ### 甘特图
+```gantt
+    title 项目开发流程
+    section 项目确定
+        需求分析       :a1, 2016-06-22, 1d
+        可行性报告     :a2, after a1, 1d
+        概念验证       :a3, after a2, 1d
+    section 项目实施
+        概要设计      :2016-07-05  , 5d
+        详细设计      :2016-07-08, 10d
+        编码          :2016-07-15, 10d
+        测试          :2016-07-22, 5d
+    section 发布验收
+        发布: 2d
+        验收: 3d
+```
+
+- ### dot
+```dot
+digraph G{
+    A -> B
+    B -> C
+    B -> D
+}
 
 ## 十一、公式
 
@@ -214,7 +254,7 @@ $$
 |   |a 	|b 	|c 	|d 	|e 	|f
 |:--:|:---:|:---|:--:|:---:|:---:|:---:|
 |1 	|:punch:|:notebook:|:e-mail:|:smile:|:movie_camera:|:camera:|
-|2 	|:fa-car:|:telephone_receiver:|:phone:|:heart:|:alarm_clock:|:loop:|
+|2 	|:car:|:telephone_receiver:|:phone:|:heart:|:alarm_clock:|:loop:|
 |3 	|:+1:|:books:|:email:|:-1:|:bulb:|:hammer:|
 |4 	|:rocket:|:book:|:envelope:|:sunny:|:mag_right:|:chart_with_upwards_trend:|
 |5 	|:cloud:|:bar_chart:|:wind_chime:|:hibiscus:|:paperclip:|:ghost:|

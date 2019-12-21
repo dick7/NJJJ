@@ -3,16 +3,18 @@
 ### 系统架构：flask + ...
 
 - 20191012 添加requirements.txt,git push 时保存用户名和密码
-'code=bash
-git clone https://.git  //码云里有克隆链接，避免出现错误，使用https方式
 
+```code=bash
+git clone https://.git  //码云里有克隆链接，避免出现错误，使用https方式
 git config --global user.name "用户名"
 git config --global user.email "邮箱"
 git config --global credential.helper store
 
-//会生成.gitconfig 的文件，查看
+// 会生成.gitconfig 的文件，查看
+
 cat .gitconfig   //报错cat: .gitconfig : No such file or directory
 cat ~/.gitconfig  //显示内容
+```
 
 [user]
         name = 输入的用户名

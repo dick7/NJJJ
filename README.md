@@ -33,4 +33,9 @@ vi ~/.git-credentials
 可加多个用户名密码
 
 '
-- 
+- 2020.1.29
+
+git ssh配置、密钥创建
+https://www.jianshu.com/p/3f4b2ede5a93
+
+

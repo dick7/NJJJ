@@ -5,7 +5,7 @@ from flask import render_template
 @app.route('/index')
 def index():
     # return 'Hello World! Another time!'
-    user = {'nickname': '主人'}  # fake user
+    user = {'nickname': 'Master'}  # fake user
     # return '''
     # <html>
     #   <head>
@@ -17,16 +17,16 @@ def index():
     # </html>
     # '''
 
-    # return render_template("index.html",title='主页',
+    # return render_template("index.html",title='front page',
     #                        user=user)
 
     posts = [  # fake array of posts
         {
-            'author': {'nickname': '张三'},
+            'author': {'nickname': 'Zhang San'},
             'body': 'Beautiful day in Portland!'
         },
         {
-            'author': {'nickname': '李四'},
+            'author': {'nickname': 'Li Si'},
             'body': 'The Avengers movie was so cool!'
         }
     ]

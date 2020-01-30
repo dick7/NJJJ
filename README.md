@@ -1,4 +1,4 @@
-# NJJJ ：南京睛界项目启动
+# NJJJ ：项目启动
 ##  本文档创建于github
 ### 系统架构(后端）：python + flask + nginx + uwsgi/wsgi + redis + mysql/psql/mongo + (celery+gnucorn)
 
